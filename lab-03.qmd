@@ -14,6 +14,8 @@ library(ggplot2)
 library(dplyr)
 ```
 
+Having open data is so important, because allowing the public to research data on their own is extremely important for scientific progress. Knowledge is power for preventing future disasters such as the COVID-19 pandemic, so when this data becomes inaccessible, we lose our ability to respond to future threats.
+
 ```{r}
 
 data = read_csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv')
@@ -284,6 +286,8 @@ ggplot() +
   theme_minimal()
 
 ```
+
+This chart would suggest that the cases began clustered in the east, and travelled west.
 
 ```{r}
 
